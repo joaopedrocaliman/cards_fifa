@@ -1,3 +1,13 @@
+h1 {
+    text-align: center;
+    font-size: 27px;
+    background-color: rgb(10, 10, 128);
+    color: white;
+    margin-left: 610px;
+    margin-right: 610px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 .container {
     background-color: rgb(135, 155, 148);
     width: 75%; /*altera a largura*/
@@ -34,9 +44,19 @@
 }
 
 .card h4 {
-    margin-top: 5px;
+    margin-top: 15px;
     margin-bottom: 5px;
     color: white;
+    text-decoration: none;
+}
+
+.card a {
+    text-decoration: dashed;
+    color: white;
+}
+
+.card a:hover {
+    text-decoration: underline;
 }
 
 .card hr {
@@ -45,7 +65,7 @@
     background-color: rgb(255, 255, 255); 
     border: none;
     border-radius: 5px;
-    margin-top: 0px;
+    margin-top: 5px;
     margin-bottom: auto;
   
 }
@@ -82,7 +102,7 @@
 .valores {
     font-size: 15px;
     margin-left: 5px;
-    margin-top: -90px;
+    margin-top: -65px;
     line-height: 2px;
 }
 
