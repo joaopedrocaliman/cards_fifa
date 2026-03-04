@@ -40,7 +40,12 @@
                     </div>
                 </div>
             </div>
-            <button type="button">Estatísticas</button>
+            <button type="button" class="btn-stats" 
+                data-bandeira="./paises/img-brasil.png" 
+                data-liga="./ligas/img-brasileirao.png" 
+                data-clube="./clubes/img-santos.png">
+                Informações
+            </button>
         </div>
         <div class="card">
             <img src="./jogadores/img-mbappe.jpg" alt="Imagem do Card">
@@ -74,7 +79,12 @@
                     </div>
                 </div>
             </div>
-            <button type="button">Estatísticas</button>
+            <button type="button" class="btn-stats" 
+                data-bandeira="./paises/img-franca.png" 
+                data-liga="./ligas/img-laliga.png" 
+                data-clube="./clubes/img-real.png">
+                Informações
+            </button>
         </div>
         <div class="card">
             <img src="./jogadores/img-messi.jpg" alt="Imagem do Card">
@@ -108,7 +118,12 @@
                     </div>
                 </div>
             </div>
-            <button type="button">Estatísticas</button>
+            <button type="button" class="btn-stats" 
+                data-bandeira="./paises/img-argentina.webp" 
+                data-liga="./ligas/img-mls.png" 
+                data-clube="./clubes/img-inter-miami.png">
+                Informações
+            </button>
         </div>
         <div class="card">
             <img src="./jogadores/img-cristiano.webp" alt="Imagem do Card">
@@ -142,7 +157,12 @@
                     </div>
                 </div>
             </div>
-            <button type="button">Estatísticas</button>
+            <button type="button" class="btn-stats" 
+                data-bandeira="./paises/img-portugal.webp" 
+                data-liga="./ligas/img-saudi-league.svg" 
+                data-clube="./clubes/img-alnassar.png">
+                Informações
+            </button>
         </div>
          <div class="card">
             <img src="./jogadores/img-kane.webp" alt="Imagem do Card">
@@ -176,7 +196,12 @@
                     </div>
                 </div>
             </div>
-            <button type="button">Estatísticas</button>
+            <button type="button" class="btn-stats" 
+                data-bandeira="./paises/img-inglaterra.png" 
+                data-liga="./ligas/img-bundesliga.png" 
+                data-clube="./clubes/img-bayern.png">
+                Informações
+            </button>
         </div>
         <div class="card">
             <img src="./jogadores/img-pedri.jpg" alt="Imagem do Card">
@@ -210,7 +235,12 @@
                     </div>
                 </div>
             </div>
-            <button type="button">Estatísticas</button>
+            <button type="button" class="btn-stats" 
+                data-bandeira="./paises/img-espanha.png" 
+                data-liga="./ligas/img-laliga.png" 
+                data-clube="./clubes/img-barcelona.png">
+                Informações
+            </button>
         </div>
         <div class="card">
             <img src="./jogadores/img-yamal.jpeg" alt="Imagem do Card">
@@ -244,7 +274,12 @@
                     </div>
                 </div>
             </div>
-            <button type="button">Estatísticas</button>
+            <button type="button" class="btn-stats" 
+                data-bandeira="./paises/img-espanha.png" 
+                data-liga="./ligas/img-laliga.png" 
+                data-clube="./clubes/img-barcelona.png">
+                Informações
+            </button>
         </div>
         <div class="card">
             <img src="./jogadores/img-haaland.webp" alt="Imagem do Card">
@@ -278,7 +313,12 @@
                     </div>
                 </div>
             </div>
-            <button type="button">Estatísticas</button>
+            <button type="button" class="btn-stats" 
+                data-bandeira="./paises/img-noruega.png" 
+                data-liga="./ligas/img-premier-league.webp" 
+                data-clube="./clubes/img-manchester-city.png">
+                Informações
+            </button>
         </div>
         <div class="card">
             <img src="./jogadores/img-vandijk.jpeg" alt="Imagem do Card">
@@ -312,7 +352,12 @@
                     </div>
                 </div>
             </div>
-            <button type="button">Estatísticas</button>
+            <button type="button" class="btn-stats" 
+                data-bandeira="./paises/img-holanda.png" 
+                data-liga="./ligas/img-premier-league.webp" 
+                data-clube="./clubes/img-liverpool.png">
+                Informações
+            </button>
         </div>
          <div class="card">
             <img src="./jogadores/img-raphinha.webp" alt="Imagem do Card">
@@ -346,8 +391,34 @@
                     </div>
                 </div>
             </div>
-            <button type="button">Estatísticas</button>
+            <button type="button" class="btn-stats" 
+                data-bandeira="./paises/img-brasil.png" 
+                data-liga="./ligas/img-laliga.png" 
+                data-clube="./clubes/img-barcelona.png">
+                Informações
+            </button>
         </div>
     </div>
+    <div id="modalStats" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h3>Informações do Jogador</h3>
+        <div class="modal-images">
+            <div class="info-group">
+                <p>País</p>
+                <img id="modal-bandeira" src="" alt="Bandeira">
+            </div>
+            <div class="info-group">
+                <p>Liga</p>
+                <img id="modal-liga" src="" alt="Liga">
+            </div>
+            <div class="info-group">
+                <p>Clube</p>
+                <img id="modal-clube" src="" alt="Clube">
+            </div>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
 </body>
 </html>
